@@ -32,3 +32,21 @@
     </form>
 </body>
 </html>
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+</head>
+<body>
+    <h1></h1>
+
+    <?php
+    // Caminho da imagem
+    $caminhoImagem = 'tabuada.png';
+    ?>
+
+    <!-- Exibir a imagem -->
+    <img src="<?php echo $caminhoImagem; ?>" alt="Minha Imagem">
+
+</body>
+</html>
